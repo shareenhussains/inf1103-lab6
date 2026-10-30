@@ -1,0 +1,31 @@
+INF1103 Lab 6 - Reflection Questions
+
+1. What is the difference between a class and an object?
+A class is a blueprint that defines the attributes and methods something will have. An object is one specific instance created from that class. For example, Product is the class, while Product("P001", "keyboard", 50.0, 20) is an object.
+
+2. Why is Product a suitable class for this system?
+A product is one of the main nouns in the inventory system. It has its own data (ID, name, price, stock) and its own behaviour (updating stock, displaying its information), so it makes sense to group these together in one class.
+
+3. What data belongs inside a Product object?
+The product ID, the name, the price and the stock quantity.
+
+4. Why should the Product class manage its own stock rather than the main program directly changing it?
+If the main program changes the stock directly, nothing checks whether the value is valid. With update_stock(), the Product can reject bad values, such as negative numbers or non-integers, so its data always stays valid.
+
+5. What does encapsulation mean in your program?
+The data is kept inside the class and hidden behind private attributes (such as __stock). Other code can only use the public methods (such as update_stock() and get_stock()) instead of changing the attributes directly.
+
+6. What is the responsibility of the Product class?
+To represent and manage a single product: store its information, manage its own state (like stock) and display its own information.
+
+7. What is the responsibility of the Inventory class?
+To manage a collection of Product objects: adding products, searching for products and displaying all products.
+
+8. How does separating these responsibilities demonstrate the Single Responsibility Principle?
+Each class has only one job and therefore one reason to change. Product only deals with one product, Inventory only deals with the collection, and the main program only deals with the menu, user input and file saving/loading. A change to one does not force changes in the others.
+
+9. What information does the main program need to know about a Product?
+It only needs to know the public interface: how to create a Product (ID, name, price, stock) and which public methods it can call, such as update_stock(), display_information() and the getters.
+
+10. What information about the internal implementation of Product does the main program not need to know?
+It does not need to know how the data is stored, such as the private attributes (__product_id, __name, __price, __stock), how they are named, or how the stock is validated inside update_stock().
