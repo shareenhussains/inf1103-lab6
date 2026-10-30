@@ -1,0 +1,38 @@
+[
+    {
+        "id": "P001",
+        "name": "keyboard",
+        "price": 50.0,
+        "stock": 20
+    },
+    {
+        "id": "P002",
+        "name": "mouse",
+        "price": 10.0,
+        "stock": 15
+    },
+    {
+        "id": "P004",
+        "name": "phone",
+        "price": 2000.0,
+        "stock": 30
+    },
+    {
+        "id": "P003",
+        "name": "Type-C Cable",
+        "price": 20.0,
+        "stock": 30
+    },
+    {
+        "id": "P005",
+        "name": "Charging Head",
+        "price": 10.0,
+        "stock": 20
+    },
+    {
+        "id": "p006",
+        "name": "monitor",
+        "price": 299.99,
+        "stock": 10
+    }
+]
