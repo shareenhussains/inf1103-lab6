@@ -1,0 +1,29 @@
+﻿commit 8ec86598123036dc7aa65efac668d30f7618e4f5
+Author: Shareen <izshahere@gmail.com>
+Date:   Fri Oct 30 16:24:07 2026 +0800
+
+    Added UML diagramd and reflection answers
+
+commit e63f4e29a62cc141a409284d6f04daef15029316
+Author: Shareen <izshahere@gmail.com>
+Date:   Fri Oct 30 15:37:49 2026 +0800
+
+    Completed OOP inventory management system
+
+commit 4b79a548a7946fa5509359e3644a7837fac31819
+Author: Shareen <izshahere@gmail.com>
+Date:   Fri Oct 30 15:37:36 2026 +0800
+
+    Refactored inventory system using OOP
+
+commit d2486654648b0dce1269b8f33308d8189dd16ed1
+Author: Shareen <izshahere@gmail.com>
+Date:   Fri Oct 30 15:37:17 2026 +0800
+
+    Created Inventory Class
+
+commit 79e68c98ca26eac3318c84f969cb748632ab3602
+Author: Shareen <izshahere@gmail.com>
+Date:   Fri Oct 30 15:36:43 2026 +0800
+
+    Created Product class
